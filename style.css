@@ -1,9 +1,8 @@
 body{
-	background:no-repeat center center fixed;
-	background-image: url("https://www.lefthudson.com/wp-content/uploads/2019/11/pepe-wallpaper-awesome-pepe-s-wallpaper-by-hopefulllover-on-deviantart-combination-of-pepe-wallpaper.jpg");
-	background-size:cover;
-	background-repeat: no-repeat;
-}
+	background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(50,50,50,1) 100%, rgba(0,0,0,0.9023984593837535) 100%);
+
+	}
 
 html{
 	font-family: font-family: 'Anton', sans-serif;
@@ -20,10 +19,14 @@ h1{
 	padding: 1rem 2rem;
 }
 
-.btn{
+.btn-primary{
 	font-weight: 700;
 	border-radius: 300px;
 	text-transform: uppercase;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 .btn-dark:hover{
@@ -41,4 +44,78 @@ hr{
 	background-color: red;
 	width:100%;
 	padding: 40px;
+}
+
+.row{
+	background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 35%, rgba(50,50,50,1) 100%, rgba(0,0,0,0.9023984593837535) 100%);
+flex-wrap: nowrap;
+display: flex; 
+justify-content: center;
+font-size: 1.2em;
+}
+
+
+.buttonrow{
+color: white;
+padding: 5px;
+padding-top: 30px;
+text-align: center;
+width:100%;
+}
+
+.buttonrow:hover{
+color: grey;
+}
+
+.logo{
+	width: 200px;
+	height: 100px;
+	justify-content: left;
+}
+
+.buttonrow2{
+color: white;
+padding: 5px;
+padding-top: 5px;
+padding-bottom: 10px;
+text-align: center;
+width:100%;
+font-size: 40px;
+}
+
+.buttonrow2:hover{
+color: white;
+}
+
+.machineimg {
+	 -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+      mask-image: linear-gradient(to bottom, rgba(50,50,50,1), rgba(50,50,50,0));
+     background: url(http://gzerocnc.com/wp-content/uploads/2018/01/cropped-IMG_0236-1.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100%;
+  	width:  100%;
+    }
+
+ p{
+
+ 	padding-top: 20px;
+ 	color: white;
+ 	font-size: 1.5em;
+ 	margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 250px;
+  margin-left: 250px;
+ }
+
+ .btn-center{
+flex-wrap: nowrap;
+display: flex; 
+justify-content: center;
+font-size: 1.2em;
+padding-bottom: 20px;
+margin-bottom: 50px;
 }
